@@ -30,14 +30,17 @@
 **Difficulty:** Easy  
 **Reflection:** Felt comfortable solving today’s problems. The marking technique was cool to implement and understand.
 
-## Day 3: 26th June 2025
+## Day 3: 27th June 2025
 
-### ✅ Q1: [Problem Title] (LeetCode #[XXX])
-- 
+### ✅ Q1: Assign Cookies (LeetCode #455)
+- Solved using a greedy two-pointer approach with sorted greed and cookie arrays
+- Learned: Importance of sorting and greedy pairing logic in optimization problems
 
-### ✅ Q2: [Problem Title] (LeetCode #[XXX])
-- 
 
-**Time Spent:** ~__ mins  
-**Difficulty:**  
-**Reflection:** 
+### ✅ Q2: Teemo Attacking (LeetCode #495)
+- Calculated total poisoned time considering overlapping attack durations
+- Learned: Handling edge cases using `min()` to manage overlapping effects 
+
+**Time Spent:** ~30 mins  
+**Difficulty:** Medium  
+**Reflection:** Today’s problems pushed my thinking on greedy strategies and careful interval calculations. Especially enjoyed the simplicity of the cookie distribution logic.
