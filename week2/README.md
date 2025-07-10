@@ -32,4 +32,22 @@
 
 **Time Spent:** ~30 mins  
 **Difficulty:** Easy  
-**Reflection:** Today's problems were good practice for basic array operations and algorithmic thinking. The array partition problem reinforced the value of sorting for greedy solutions, while the concatenation problem was a quick exercise in vector manipulation and indexing.
+**Reflection:** Today’s problems were good practice for basic array operations and algorithmic thinking. The array partition problem reinforced the value of sorting for greedy solutions, while the concatenation problem was a quick exercise in vector manipulation and indexing.
+
+---
+
+## Day 3: 10th July 2025
+
+### ✅ Q1: Senior Citizen (LeetCode #2678)
+- Solved by extracting the age substring from each detail and counting those above 60
+- Learned: String manipulation with substrings and conversion to integers using stoi
+- Key insight: The age is always at a fixed position in the string, making extraction straightforward
+
+### ✅ Q2: Is Subsequence (LeetCode #392)
+- Solved using a two-pointer approach to check if one string is a subsequence of another
+- Learned: Efficiently traversing two strings with a single loop and early exit
+- Key insight: Increment the subsequence pointer only when a match is found, and return true if all characters are matched
+
+**Time Spent:** ~25 mins  
+**Difficulty:** Easy  
+**Reflection:** Both problems were quick exercises in string manipulation and pointer logic. The senior citizen problem highlighted the importance of understanding string formats, while the subsequence problem reinforced the value of pointer-based traversal for sequence checking.
