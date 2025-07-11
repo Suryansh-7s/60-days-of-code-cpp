@@ -51,3 +51,21 @@
 **Time Spent:** ~25 mins  
 **Difficulty:** Easy  
 **Reflection:** Both problems were quick exercises in string manipulation and pointer logic. The senior citizen problem highlighted the importance of understanding string formats, while the subsequence problem reinforced the value of pointer-based traversal for sequence checking.
+
+---
+
+## Day 4: 11th July 2025
+
+### ✅ Q1: Find Pivot Index (LeetCode #74)
+- Solved using prefix sum approach with left and right sum tracking
+- Learned: Using `accumulate()` function for array sum and efficient pivot index calculation
+- Key insight: Track left sum and subtract current element from right sum, checking for equality at each position
+
+### ✅ Q2: Isomorphic Strings (LeetCode #205)
+- Solved using character mapping with index tracking for both strings
+- Learned: Using arrays to map character positions and ensuring bidirectional consistency
+- Key insight: Map each character to its last occurrence index and verify consistency in both directions
+
+**Time Spent:** ~45 mins  
+**Difficulty:** Easy  
+**Reflection:** The pivot index problem was a good exercise in array manipulation and prefix sum concepts. The isomorphic strings problem reinforced the importance of bidirectional mapping validation. Both solutions are now fully runnable with comprehensive test cases included.
