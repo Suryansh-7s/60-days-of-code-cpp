@@ -56,7 +56,7 @@
 
 ## Day 4: 11th July 2025
 
-### ✅ Q1: Find Pivot Index (LeetCode #74)
+### ✅ Q1: Find Pivot Index (LeetCode #724)
 - Solved using prefix sum approach with left and right sum tracking
 - Learned: Using `accumulate()` function for array sum and efficient pivot index calculation
 - Key insight: Track left sum and subtract current element from right sum, checking for equality at each position
@@ -69,3 +69,21 @@
 **Time Spent:** ~45 mins  
 **Difficulty:** Easy  
 **Reflection:** The pivot index problem was a good exercise in array manipulation and prefix sum concepts. The isomorphic strings problem reinforced the importance of bidirectional mapping validation. Both solutions are now fully runnable with comprehensive test cases included.
+
+---
+
+## Day 5: 12th July 2025
+
+### ✅ Q1: Unique Email Addresses (LeetCode #929)
+- Solved by normalizing email addresses (removing dots, ignoring text after '+', preserving domain)
+- Learned: String parsing, use of `unordered_set` for uniqueness, and careful substring handling
+- Key insight: Normalize the local part before the '@' and combine with the domain for uniqueness
+
+### ✅ Q2: Maximum Number of Balloons (LeetCode #1189)
+- Solved by counting character frequencies and determining the limiting letter for "balloon"
+- Learned: Frequency counting with arrays, integer division for repeated letters, and use of `min` for constraints
+- Key insight: The answer is limited by the least available required character, with 'l' and 'o' needed twice
+
+**Time Spent:** ~30 mins  
+**Difficulty:** Easy  
+**Reflection:** Both problems were excellent practice for string and array manipulation. The email normalization problem highlighted the importance of careful parsing, while the balloon problem reinforced frequency analysis and constraint logic. Both solutions are now fully runnable with sample test cases.
